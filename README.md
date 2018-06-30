@@ -11,14 +11,14 @@ Three files worth noting:
 * neural_network.py
 * main.py
 
-**simple_example.py**
+### simple_example.py
 It's a stand-alone script which implements a shallow network to recognize digits using the MNIST dataset. This code aims to be very simple and didactic. To keep as simple as possible, I hardcoded the network and its parameters specifically for this example. The idea here is to get insights on how to code each step of a neural network.
 
-**neural_network.py**
+### neural_network.py
 A generic class implementation of a neural network. With this class, you can create a neural network specifying the number of
 layers and neurons in each one.
 
-**main.py**
+### main.py
 A usage example of NeuralNetwork class to recognize digits using the MNIST dataset.
 
 
